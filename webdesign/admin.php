@@ -1,5 +1,4 @@
 <?php
-//testing change 
 $page_title ="NeRV|Admin";
 include_once 'Resource/database.php';
 require_once 'partials/adminheader.php';
