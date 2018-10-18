@@ -1,0 +1,67 @@
+#body{
+  font-family: verdana, sans-serif;
+  padding-top: 50px;
+  background-color: rgb(153, 255, 221);
+}
+
+.navbar {
+  color: rgb(61, 255, 132);
+}
+
+.nav-text {
+  float: right;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+#head {
+  margin-bottom: 15px;
+}
+
+#main {
+  min-height: 200px;
+}
+
+#footer {
+  background-color: rgb(51, 61, 101);
+  color: #fff;
+  padding: 30px;
+  line-height: 1.8;
+  margin: 15px 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.imagepadding {
+  padding: none;
+}
+
+.input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.input[type=text]:focus {
+    width: 100%;
+}
